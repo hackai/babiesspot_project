@@ -1,0 +1,531 @@
+/*Welcome Page=========!*/
+body { 
+  background: url(back-ad2.gif) top center repeat-x;
+/*  webkit-background-size: cover;
+  moz-background-size: cover;
+  o-background-size: cover;*/
+  /*background-size: cover;*/
+  /*background-color: #fff;*/
+  /*margin: 50px;*/
+ /* padding-top: 70px;*/
+ /*background: white;*/
+}
+
+/*Top Container=====*/
+.topSocial{
+	margin-right: 20px;
+}
+.facebook{
+	float: right;
+	display: inline-block;
+	background: url(social_fb.png) no-repeat;
+	width: 30px;
+	height: 30px;
+}
+
+.twitter{
+	float: right;
+	display: inline-block;
+	background: url(social_twitter.png) no-repeat;
+	width: 30px;
+	height: 30px;
+}
+
+.pinterest{
+	float: right;
+	display: inline-block;
+	background: url(social_pinterest.png) no-repeat;
+	width: 30px;
+	height: 30px;	
+}
+
+.googleplus{
+	float: right;
+	display: inline-block;
+	background: url(social_gplus.png) no-repeat;
+	width: 30px;
+	height: 30px;
+}
+
+.linkedin{
+	float: right;
+	display: inline-block;
+	background: url(social_linkedin.png) no-repeat;
+	width: 30px;
+	height: 30px;
+}
+
+.blog{
+	float: right;
+	display: inline-block;
+	background: url(social_rss.png) no-repeat;
+	width: 30px;
+	height: 30px;
+}
+
+/*Back toTop button*/
+#toTop {
+	background: url(totop.png) no-repeat left -51px;
+	display:none;
+	text-decoration:none;
+	position:fixed;
+	bottom:10px;
+	right:10px;
+	overflow:hidden;
+	width: 51px;
+	height: 51px;
+}
+/*end toTop*/
+.orange{
+	color: orange;
+}
+.green{
+	color: lightgreen;
+}
+.mybaby{
+	/*border: 2px solid blue;*/
+	color: blue;
+	height: 50px;
+	margin-left: 30px;
+	margin-top: 30px;
+	/*margin-top: -40px;*/
+	font-size: 26px;
+	font-family: georgia, lucinda, verdana, geneva, sans-serif;
+}
+
+.original_parent{
+	height: 40px;
+	width: 70px;
+	margin-left: 200px;
+}
+.clear{
+	clear:both;
+}
+
+.navbar-inner{
+	height: 45px;
+	background:#444 url(tweed.png);
+	/*background-color: #fafafa;*/
+	/*background-color: #333;*/
+	vertical-align: baseline;
+}
+/*topNav*/
+.topNav{
+	margin-left: 40px;
+	margin-top: -5px;
+	color:white;
+}
+
+/*Home, About etc. buttons*/
+#topNav ul li a{
+	color: #fff;
+	/*margin-left: 100px;*/
+	float: left;
+	table-layout: fixed;
+}
+.nav{
+	height: 36px;
+}
+/*Sign up*/
+.btn{
+	margin-left: 48px;
+	margin-bottom: -20px;
+	height: 15px;
+	width: 80px;
+	font-size: 14.5px;
+	padding-bottom: 10px;
+}
+h3{
+	color: #999;
+	margin-left: 100px;
+}
+
+h4{
+	padding-left: 10px;
+	width: 310px;
+	margin-bottom: 20px;
+}
+.lead{
+	font-size: 16px;	
+}
+
+.navbar .nav > li > a{
+	padding: 15px 20px;
+}
+
+/*Header Navbar*/
+.noTabPointer{
+	background: url("/app/assets/images/header_ribbon.gif");
+	/*border: 1px solid blue;*/
+}
+/*Simple Form ===============*/
+#sign_form{
+	float: right;
+	font-size: 9px;
+	height: 15px;
+	margin-right: 10px;
+	margin-top: -56px;
+	margin-bottom: -15px;
+}
+
+.session_email_address{
+	width: 100px;
+	display: inline;
+	margin-left: 30px;
+	margin-top: -8px;
+	color: white;
+}
+#session_email_address{
+	width: 150px;
+	display: inline;
+	/*margin-top: -40px;*/
+}
+
+.string.email{
+	height: 13px;
+}
+
+.pass{
+	display: inline;
+}
+
+.session_password{
+	width: 150px;
+	display: inline;
+	margin-left: 5px;
+	margin-right: 60px;
+	margin-top: -23px;
+	color: white;
+	float: right;
+}
+#session_password{
+	width: 150px;
+	margin-top: 5px;
+	
+}
+.password.required{
+	height: 13px;
+}
+
+
+/*End of simple form ==============*/
+/*==Nav-Center Begining*/
+.welcome_catchy{
+	width: 1208px;
+}
+.span12_div{
+	width: 1208px;
+}
+.span4{
+	background:#444 url(tweed.png);
+	padding: 10px;
+	margin-top: 15px;
+	color:white;
+}
+#center_nav{
+	margin-left: 25px;
+
+}
+.title{
+	color:#E3E2DB;
+}
+.pic1{
+	width: 300px;
+	height: 50px;
+	margin-top: 180px;
+}
+
+.pic2{
+	margin-left: 80px;
+}
+/*Login*/
+#login{
+	/*border: 1px solid red;*/
+	/*margin-left: 20px;*/
+	/*background-color: #484069;*/
+	/*background-color: #ddd;*/
+	/*margin: 10px;*/
+}
+
+#label{
+	float: left;
+}
+
+#password{
+	float: right;
+}
+
+/*=================================*/
+/*Main Container*/
+#row-fluid{
+	width: 1156px;
+	height: 320px;
+	margin-right: 150px;
+	margin-left: -140px;
+	/*border: 2px solid red;*/
+	/*background-color: #f1f7f6;*/
+	background-color: #eeeeee;
+}
+
+/*myCarousel*/
+#myCarousel{
+	width: 390px;
+	height: 245px;
+	padding-bottom: 55px;
+	margin-left: 765px; 
+	margin-top: 9px;
+	/*border: 3px solid blue;*/
+
+}
+/*carousel fram*/
+.carousel-inner img{
+	width: 200px;
+	height: 317px;
+	border-bottom: 260px;
+	/*border: 3px solid green;*/
+}
+/*Carousel-caption*/
+.carousel-caption{
+	height: 100px;
+	padding: 5px;
+}
+.btn_01{
+	float: right;
+	margin-bottom: 20px;
+	height: 15px;
+}
+.btn_02{
+	float: right;
+	height: 15px;
+	margin-top: 10px;
+}
+.btn_03{
+	float: right;
+	height: 15px;
+	margin-top: 10px;
+}
+
+/*==============================*/
+/*Picture size for carousel!*/
+.item img{
+	width: 670px;
+	height: 320px;
+}
+/*end of picture sizing for carousel!*/
+
+/*carousel hero-row-welcom*/
+#container-fluid{
+	/*background-color: #fafafa;*/
+	/*background-color:#1F83B7;*/
+	width: 950px;
+	height: 320px;
+	margin-top: 150px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 20px;
+	/*border: 2px solid blue;*/
+}
+
+.text-success{
+	color: darkgray;
+}
+.welcome_message{
+	color: darkgray;
+}
+
+.left_nav{
+	width: 500px;
+	height: 290px;
+	float: left;
+	margin-top: 40px;
+	margin-left: 35px;
+	/*border: 2px solid blue;*/
+}
+
+.left_nav p{
+	width: 480px;
+	height: 150px;
+}
+/*Container-main*/
+#nutrition_nav{
+	width: 351px;
+	height: 190px;
+}
+.left_parag{
+	padding-right: 15px;
+}
+.center_parag{
+	padding-right: 15px;
+}
+#parent_nav{
+	width: 351px;
+	height: 190px;
+}
+#rss_nav{
+	width: 351px;
+	height: 190px;
+}
+.span10{
+	margin-left: 70px;
+	width: 200px;
+	height: 300px;
+}
+
+/*<!-- FOOTER =========================-->*/
+#footer{
+	background:#444 url(tweed.png);
+	margin-bottom:25px;
+	width: 100%;
+	height: 60px;
+}
+
+.rights{
+	color: #999;
+	padding-top: 15px;
+	padding-left: 10px;
+}
+#btn_02{
+	margin-top: 20px;
+}
+/*End of Welcome Page.*/
+/*=======================================*/
+/*Register Page*/
+
+#body_register{
+ 	background: url(back-ad2.gif) top center repeat-x;
+}
+
+#register{
+	float: left;
+}
+#title_logo{
+	float: left;
+	font-family: georgia, lucinda, verdana, geneva, sans-serif;
+
+}
+#new_registration{
+	/*border: 2px solid blue;*/
+	margin-bottom: 100px;
+	margin-top: 50px;
+	padding: 60px;
+	font-family: 'Geo';
+	font-style: normal;
+	font-weight: 400;
+	height: 400px;
+	width: 600px;
+}
+
+#user_email_address{
+	width: 210px;
+	height: 22px;
+	border-radius: 4px;
+	display: block;
+}
+
+#user_password{
+	width: 220px;
+	height: 22px;
+	display: block;
+}
+#user_password_confirmation{
+	display: block;
+}
+.user_password_confirmation{
+	margin-top: 45px;
+}
+.content_holder{
+	margin: 0 auto;
+	display: block;
+}
+/*.button{
+	background-color: #17A709;
+	color: white;
+	003ec5;
+	font-family: georgia, lucinda, verdana, geneva, sans-serif;
+}*/
+
+/*End User Registration=============*/
+
+/*container-main*/
+.container{
+	/*border: 2px solid red;*/
+	margin: 15px;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 1280px;
+}
+
+.picture1{
+	float: right;
+}
+
+/*End of Register Page*/
+/*====================================*/
+/*Profile.php*/
+#header{
+	height: 70px;
+	background-color: #FAF8F1;
+	background:#444 url(tweed.png);
+}
+
+#link_hover{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#link_hover:hover{
+	border-bottom: 1px solid #33b5e5;
+	width: 130px;
+	background-color: inherit;
+}
+/*===Profile Page ===================*/
+
+	/*RssFeed*/
+.main_body{
+	/*background-color: #f1f7f6*/
+	background-color: #2a3753;
+	border-top: 20px;
+	height: 546px;
+}
+
+.rss_header{
+	/*color: #CCEBFA;*/
+}
+
+.register_welcome{
+	margin-left: 200px;
+	float: left;
+}
+
+/* #E3E2DB it is a good white color*/
+#register_hover{
+	color: #E3E2DB; 
+}
+
+/*PROFILE PAGE rssFeed 3 boxes.*/
+.rssFeed{
+	background-color: #FAF8F1;
+	border: 3px solid white;
+	float: left;
+	margin: 10px;
+	width: 300px;
+}
+
+.rssBody{
+	/*background-color:#2a3753;*/
+
+}
+.rotateFrame{
+	margin: 2px;
+	/*border: 1px solid red;*/
+}
+
+.logoff{
+	float: right;
+	background-color: #FF7C0A;
+}
+
+.rss{
+	float: right;
+}
+

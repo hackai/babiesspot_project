@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<title>New Parents Website | New User Registration</title>
+<!-- <h1>New Register User</h1> -->
+<!-- <p>Find me in app/views/users/new.html.erb</p> -->
+</head>
+	<body id="body_register"style>
+		<div class="container">
+			<div class="header">
+				<div id="title_logo" class="title pull-left">
+					<h1>
+						<a id="logo_user" class="logo_new_user" href="logoname">BabieSSpot</a>
+					</h1>
+				</div>
+			</div>
+			<!-- header -->
+			<div class="content_holder">
+				<div id="new_registration" class="new_user">
+				<%= simple_form_for (@user) do |f| %>
+					<%= f.input :first_name %>
+					<%= f.input :last_name %>
+					<%= f.input :email_address %>
+					<%= f.input :profession %>
+					<%= f.input :password %>
+					<%= f.input :password_confirmation %>
+					<%= f.button :submit %>
+				<% end %></div>
+			</div>
+		</div>
+	</body>
+</html>

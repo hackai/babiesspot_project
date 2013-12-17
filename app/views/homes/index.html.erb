@@ -1,0 +1,200 @@
+<head>
+<!--====Back to Top button=====-->
+  <a href="#" id="toTop" style="display: inline;">
+  <span id="toTopHover" style="opacity: 0;"></span></a>
+</head>
+<body>
+	<!--===HOME PAGE======================== -->
+  <div id="wrapper">
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div id="topContainer"> <!-- Top Container== -->
+          <div id="topNav" class="topNav">
+            <ul class="nav">
+              <li><a id="about" href="#about">EXPERT ADVICE</a></li>
+              <li class="active_nav"><a id="home" href="home">HOME</a></li>
+              <li><a id="blog" href="#contact">BLOG</a></li>
+              <li><a id="contact" href="#contact">CONTACT</a></li>
+              <li><a id="about" href="#about">ABOUT</a></li>
+            </ul>
+          </div><!--/End of id topNav============ -->
+          <div class="topSocial">
+            <ul>
+              <li class="facebook"><a target="_blank" href="http://facebook.com" class="icon facebook"><!-- <span>Facebook</span> --></a></li>
+              <li class="twitter"><a target="_blank" href="http://twitter.com/clubonefit" class="icon twitter"><span></span></a></li>
+              <li class="pinterest"><a target="_blank" href="http://pinterest.com/clubonefitness" class="icon pinterest"><span></span></a></li>
+              <li class="googleplus"><a target="_blank" href="http://plus.google.com/112676044741766369941" class="icon googleplus"><span></span></a></li>
+              <li class="linkedin"><a target="_blank" href="http://www.linkedin.com/company/club-one" class="icon linkedin"><span></span></a></li>
+              <li class="blog"><a target="_blank" href="/Feeds/Blog" class="icon blog"><span></span></a></li>
+            </ul>
+          </div> <!-- End of class topSocial -->
+        </div> <!-- End of id topContainer -->
+      </div> <!-- End of class navbar-inner======== -->
+      <div id="headerContainer"><!-- Start logo id container -->
+        <div id="header">
+          <div id="primaryNav">
+           <!--  <a class="brand" href="/en/"> -->
+            <a id="logo"class="mybaby" href="#"><span class="green">BabieS<span class="orange">Spot</span></a>
+         <!--    <div class="original_parent"><%= image_tag("original.png", :alt => "Example Image") %> -->
+            <!-- <img src="/assets/images/original.png"> --></a></div>
+             <!--  <button type="button" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>    
+              </button> -->
+                  <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+
+            <div class="register"> <!-- Register -->
+              <a class="btn btn-mini btn-primary" href="/users/new">Sign up</a>
+            </div><!--===========/End of Register -->
+              
+            <div id="sign_form" class="simple_form"> <!-- Simple Form Begins ========-->
+              <%= simple_form_for(:session, :url => sessions_path) do |f| %>
+                <%= f.input :email_address %>
+                <div class="pass"><%= f.input :password %></div>
+                <%= f.button :submit %>
+              <% end %>
+            </div> <!--End of Simple form =========-->
+
+          </div> <!-- End of id primaryNav -->
+        </div> <!-- End of id header -->
+      </div> <!-- End of headerContainer -->
+    </div><!-- End of class navbar navbar-fixed-top -->
+  </div><!-- /End of id Wrapper=============== -->  
+
+ <!-- ============Carousel======================= -->
+    <div id="container-fluid">
+      <!-- <div class="container_01"> -->
+        <div id="row-fluid">
+          <div class="left_nav">
+            <h2>Interact, learn and share your experiences with other parents.</h2>
+             <p>Interactive chat sessions will allow you to learn things from other parents which you were not able to read in medical journals or articales. Plus you have the added benefit of sharing your own experiences and enriching other parent's lives in the process.</p>
+          </div>
+          <div id="myCarousel" class="carousel slide">
+          	 <ol class="carousel-indicators">
+          	    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          	    <li data-target="#myCarousel" data-slide-to="1"></li>
+          	    <li data-target="#myCarousel" data-slide-to="2"></li>
+          	    <li data-target="#myCarousel" data-slide-to="3"></li>
+          	 </ol>
+
+                <div id="carousel1"class="carousel-inner">
+                  <div class="item active">
+                    <%= image_tag("baby10mo.jpg", :alt => "Example Image") %>
+                    <!-- <div class="container"> -->
+                    <div class="carousel-caption">
+                      <h3 class="title">Nutrition.</h3>
+                      <p class="lead">The importance of knowing what foods to introduce and at what age.</p>
+                    </div>
+                  </div><!-- End of class items -->
+
+                  <div class="item">
+                      <%= image_tag("Parents_Ash_2013-08-10.jpg", :alt => "Example Image") %>
+                 <!--    <div class="container"> -->
+                      <div class="carousel-caption">
+                        <h4 class="title">Updates from parents.</h4>
+                        <p class="lead">Parents have the opportunity to share experiences with other members.</p>
+                        <a id="button"class="btn_01 btn-large btn-primary" href="#">Learn more</a>
+                      </div>
+                  </div><!-- End of class item -->
+
+                  <div class="item">
+                    <%= image_tag("Aiden8mo2.jpg", :alt => "Example Image") %>
+                   <!--  <div class="container"> -->
+                      <div class="carousel-caption">
+                        <h4 class="title">Interactive chat with members.</h4>
+                        <p class="lead">Helpful research from leading hospitals.</p>
+                        <a id="button2" class="btn_02 btn-large btn-primary" href="#">Browse gallery</a>
+                      </div>
+                    <!-- </div> -->
+                  </div>
+                   <div class="item">
+                    <%= image_tag("Aiden8mo1.jpg", :alt => "Example Image") %>
+                   <!--  <div class="container"> -->
+                      <div class="carousel-caption">
+                        <h4 class="title_rss">RSS feeds from hospitals.</h4>
+                        <p class="lead">Helpful research from leading hospitals.</p>
+                        <a class="btn_03 btn-large btn-primary" href="#">Browse gallery</a>
+                      </div><!-- END OF CAROUSEL-CAPTION -->
+                  </div><!-- End of class item -->
+                </div><!-- End of id Carousel1 -->
+
+                  <!-- Carousel nav -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+            </div><!-- End of my Carousel -->
+        </div><!-- End of row-fluid -->
+    </div><!-- End of Container -->
+
+<!--Nav Begining-->
+   <div class="pic2">
+           <%= image_tag("testing.jpg", :alt => "Example Image") %>
+   </div>
+<!--Nav-Left-->
+<div class="container container-main">
+     <div class="row-fluid">
+    <hr class="clearfix header">
+       <div class="span12_div">
+          <div class="welcome_catchy -topic spacing">
+            <div class="span4">
+              <div id="nutrition_nav">
+                <div class="left_paragraph">
+                  <h3>Nutrition</h3>
+                  <p class="left_parag">It is imperative that new parents know the value of foods that are being introduced to their babies. The importance of knowing what foods to introduce and at what age will eventually establish healthy eating habbits.</p>
+                  <p>
+                    <a id="btn_01"class="btn" href="#">View details</a>
+                  </p>
+                </div> 
+            </div>
+          </div> 
+<!--Nav-Left End-->
+<!--Nav-Center Begining-->
+          <div id="center_nav"class="span4">
+            <div id="parent_nav">
+              <div class="center_paragraph">
+                <h3>Parent Chats</h3>
+                <p class="center_parag">Parents have the opportunity to share experiences with other members and use the knowledge for their own circumstances. Also, they can share knowledge through our secure interactive chat.</p>
+                <p>
+                  <a id="btn_02"class="btn" href="#">View details</a>
+                </p>
+              </div> 
+            </div>
+          </div> 
+<!--Nav-Center End-->
+<!--Nav-Right Begining-->
+          <div class="span4">
+            <div id="rss_nav">
+              <div class="right_paragraph">
+                <h3>RSS Updates</h3>
+                <p>RSS feeds are directly linked to major leading intiturions and universities to help parents find what they need for their children. Also, doctors and physicians can partiipate in active chatts and posts where users can find answers to their concirns.</p>
+                <p>
+                  <a id="btn_03"class="btn" href="#">View details</a>
+                </p>
+              </div> 
+            </div> <!-- End of rss_nav -->
+          </div> <!-- End of class span4 (right nav) -->
+        </div> <!-- End of class row-fluid welcome-catchy  -->
+      </div>
+    </div>
+</div>
+    <!-- FOOTER -->
+  <hr class="clearfix header">
+    <div id="footer">
+      <footer>
+        <p class="rights">&copy; 2013 Company, Inc. All rights reserved. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+    </div><!-- /.container -->
+    <script src="http://localhost:8888/proj1_codeigniter/assets/bootstrap/js/bootstrap-transition.js"></script>
+    <script src="http://localhost:8888/proj1_codeigniter/assets/bootstrap/js/bootstrap-alert.js"></script>
+    <script src="http://localhost:8888/proj1_codeigniter/assets/bootstrap/js/bootstrap-modal.js"></script>
+    <script src="http://localhost:8888/proj1_codeigniter/assets/bootstrap/js/bootstrap-dropdown.js"></script>
+    <script src="http://localhost:8888/proj1_codeigniter/assets/bootstrap/js/bootstrap-scrollspy.js"></script>
+    <script src="http://localhost:8888/proj1_codeigniter/assets/bootstrap/js/bootstrap-tab.js"></script>
+    <script src="http://localhost:8888/proj1_codeigniter/assets/bootstrap/js/bootstrap-tooltip.js"></script>
+    <script src="http://localhost:8888/proj1_codeigniter/assets/bootstrap/js/bootstrap-popover.js"></script>
+    <script src="http://localhost:8888/proj1_codeigniter/assets/bootstrap/js/bootstrap-button.js"></script>
+    <script src="http://localhost:8888/proj1_codeigniter/assets/bootstrap/js/bootstrap-collapse.js"></script>
+    <script src="http://localhost:8888/proj1_codeigniter/assets/bootstrap/js/bootstrap-carousel.js"></script>
+    <script src="http://localhost:8888/proj1_codeigniter/assets/bootstrap/js/bootstrap-typeahead.js"></script>
+    
+</body>

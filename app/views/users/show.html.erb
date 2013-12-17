@@ -1,0 +1,50 @@
+<!-- <h1>Users#show</h1>
+<p>Find me in app/views/users/show.html.erb</p>
+ -->
+<div id="text"></div>
+	<div id="header">
+		<h4 class="welcome_message">Welcome <%= @user.first_name%> to BabieSSpot.com</h4>
+		<div class="wrapper">
+				<!-- span acts as a small inline div -->		
+			<!-- <h2>my<span class='logo_color'>B</span>a<span class='logo_color'>b</span>y.com</h2> -->
+				<nav>
+					<ul id="primary-nav" class="nav">
+						<li id="menu-item" class="menu-item">
+							<a id='link_hover' href="http://mybaby.com">BabieSSpot.com</a>
+				<a href='/signout'><button class='logoff' a class='btn btn-primary'>Log Off</button></a>
+				<hr class="clearfix header">
+			</div>
+			<div class="rss">
+				<a href="news.rss" title="Subscribe RSS Feed">
+				<%= image_tag("rss.png")%>
+				</a>
+			</div>	
+		</div>
+		<div class="main_body">
+			<div class="rssfeed">
+				<h3><span class="rss_header">RSS on Medical Research</h3></span>
+				<div id="zrotate"></div>
+				</div>
+				<div class="rssfeed">
+					<h3>RSS on University Publications</h3>
+					<div id="zrotate2"></div>
+				</div>
+				<div class="center_rssfeed">
+					<h3>Medical Video RSS feed</h3>
+					<div id="ticker1"></div>
+				</div>
+				<div class='clear'></div>
+			</div>
+		 <div id="test" class="rssFeed_error">
+			  <div class="rssError">
+			    <!-- <p>... (error message) ...</p> -->
+		  	  </div>
+		</div>
+	</div>
+  <!-- FOOTER -->
+<div class="footer">
+  <footer>
+    <p class="pull-right"><a href="#">Back to top</a></p>
+    <p>&copy; Copyright 2013 <a href="#">BabieSSpot.com, Inc.</a> &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+</div>
